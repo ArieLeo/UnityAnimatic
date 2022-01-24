@@ -1,0 +1,19 @@
+{
+    "name": "VX.Animatic.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f6de75c8c8333464eb7d3caa037de423",
+        "GUID:95eca513811aa72438907f82cc80f98f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

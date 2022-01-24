@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/voxell.animatic/Editor/AnimaticEditorWindow.uss?fileID=7433441132597879392&amp;guid=57dfbe7bdff40784f8e49b896d3ad1de&amp;type=3#AnimaticEditorWindow" />
+    <uie:Toolbar name="toolbar" style="border-top-color: rgba(35, 35, 35, 0); border-bottom-color: rgba(35, 35, 35, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: rgb(30, 30, 30); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:Button text="*" display-tooltip-when-elided="true" name="view-in-project" style="-unity-text-align: middle-left; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;" />
+        <ui:Button display-tooltip-when-elided="true" name="save-asset" style="-unity-text-align: middle-left; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;" />
+        <ui:Button text="Build Asset" display-tooltip-when-elided="true" name="build-asset" style="-unity-text-align: middle-left; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;" />
+        <ui:ProgressBar title="Build Progress" style="align-items: center; justify-content: center;" />
+    </uie:Toolbar>
+    <Voxell.Inspector.SplitView fixed-pane-initial-dimension="300" name="content-split-view">
+        <ui:VisualElement name="left-panel" style="border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px;">
+            <ui:Button text="Configure Asset" display-tooltip-when-elided="true" name="configure-asset" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px;">
+            <ui:Label display-tooltip-when-elided="true" name="animation-data-title" />
+            <Voxell.Inspector.InspectorView name="selected-animation-inspector" style="padding-left: 0; padding-right: 0; padding-top: 8px; padding-bottom: 0;" />
+        </ui:VisualElement>
+    </Voxell.Inspector.SplitView>
+</ui:UXML>

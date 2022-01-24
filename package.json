@@ -1,0 +1,22 @@
+{
+  "name": "voxell.animatic",
+  "displayName": "VX Animatic",
+  "author": "Nixon",
+  "description": "Advance animation system.",
+  "keywords": [
+    "animation",
+    "animatic",
+    "voxell"
+  ],
+  "license": "Apache 2.0",
+  "unity": "2020.3",
+  "version": "1.0.0",
+  "dependencies": {
+    "voxell.util": "1.4.0",
+    "com.unity.mathematics": "1.2.5",
+    "com.unity.collections": "1.1.0",
+    "com.unity.jobs": "0.11.0-preview.6",
+    "com.unity.burst": "1.6.0"
+  },
+  "hideInEditor": false
+}
